@@ -1,0 +1,33 @@
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 2rem 5rem 1.8rem;
+  font-weight: 600;
+  transition: all 0.6s;
+
+  // for the button element
+  cursor: pointer;
+  outline: none;
+  font-family: "Spartan", sans-serif;
+
+  &:hover {
+    background-color: #fff;
+    color: $color-primary-black;
+  }
+
+  &--dark {
+    background-color: $color-primary-black;
+
+    &:hover {
+      border-color: $color-primary-black;
+    }
+  }
+
+  &--light {
+    background-color: transparent;
+  }
+}
